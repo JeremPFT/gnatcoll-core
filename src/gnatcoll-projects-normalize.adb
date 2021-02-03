@@ -1707,7 +1707,7 @@ package body GNATCOLL.Projects.Normalize is
             then
                Set_Associative_Array_Index_Of
                  (Current, Tree_Node,
-                  Get_Lower_Name_Id
+                 Get_String
                     (Get_Name_String
                        (Associative_Array_Index_Of (Current, Tree_Node))));
             end if;

@@ -2707,7 +2707,7 @@ package body GNATCOLL.Projects is
 
       --  The project naming scheme
       else
-         Unit := Get_Lower_Name_Id (Unit_Name);
+         Unit := Get_String (Unit_Name);
 
          --  Take advantage of computation done by the project manager when we
          --  looked for source files
